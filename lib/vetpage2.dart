@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vet/model/user_model.dart';
 import 'package:vet/vetloc.dart';
+import 'package:vet/vetloc2.dart';
 import 'package:vet/vetpage.dart';
 import 'home.dart';
 import 'login.dart';
@@ -124,8 +125,14 @@ class _VetPage2State extends State<VetPage2> {
                               "South Paw Animal Clinic",
                               "Animals feel pain, just like we do. They can’t tell us what hurts and rarely cry or whimper. Animals tend to curl up and sleep to try to avoid pain."),
                         ),
-                        createDocWidget("map.png", "Vet Location 2 ",
-                            'Dental disease is real, and really hurts. Most animals won’t show signs of pain and will keep eating. However, owners describe how much more alert and spunky their pets act after those painful teeth are treated or removed. There are no shortcuts in dental care. There are many people out there in the business of selling shortcuts, but safe and thorough dentistry requires anesthesia and dental x-rays.'),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: ((context) => VetLoc2())));
+                          },
+                          child: createDocWidget("map.png", "Vet Loc 2",
+                              "Dental disease is real, and really hurts. Most animals won’t show signs of pain and will keep eating. However, owners describe how much more alert and spunky their pets act after those painful teeth are treated or removed. There are no shortcuts in dental care. There are many people out there in the business of selling shortcuts, but safe and thorough dentistry requires anesthesia and dental x-rays."),
+                        ),
                         createDocWidget("map.png", " Vet Location 3",
                             'Food does not equal love in your pet’s eyes. They may surely enjoy snacks. But they will still know how much you adore them, even if you minimize snacks to keep them at a healthy weight.'),
                         createDocWidget("map.png", "Vet Location 4",
