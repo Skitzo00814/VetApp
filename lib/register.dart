@@ -144,7 +144,7 @@ class _RegistrationState extends State<Registration> {
     final signupButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.grey,
+      color: Color.fromRGBO(180, 133, 101, 1),
       child: MaterialButton(
           padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
           minWidth: MediaQuery.of(context).size.width,
