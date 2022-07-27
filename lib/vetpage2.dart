@@ -123,7 +123,7 @@ class _VetPage2State extends State<VetPage2> {
                           child: createDocWidget(
                               "map.png",
                               "South Paw Animal Clinic",
-                              "Animals feel pain, just like we do. They can’t tell us what hurts and rarely cry or whimper. Animals tend to curl up and sleep to try to avoid pain."),
+                              "Opens everyday 10 A.M - 6 P.M \nexcept Tuesday."),
                         ),
                         GestureDetector(
                           onTap: () {

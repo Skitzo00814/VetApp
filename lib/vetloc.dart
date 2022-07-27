@@ -118,21 +118,7 @@ class _VetLocState extends State<VetLoc> {
                               height: 10,
                             ),
                             Text(
-                              'Opens everyday 10 A.M - 6 P.M except Tuesday',
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                            Text(
-                              '',
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                            Text(
-                              'We offer',
+                              'We offer: \n\n Consultation/Check-up \n Treatment & Confinement \n Vaccination & Deworming \n Surgery \n Dental Prophylaxis \n Pet Grooming \n Pet Supplies \n \n \nYou can also check us on GOOGLE MAP, \n just search SOUTH PAWS ANIMAL CLINIC, Las Piñas.',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,
