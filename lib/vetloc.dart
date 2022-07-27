@@ -118,7 +118,7 @@ class _VetLocState extends State<VetLoc> {
                               height: 10,
                             ),
                             Text(
-                              'We offer: \n\n Consultation/Check-up \n Treatment & Confinement \n Vaccination & Deworming \n Surgery \n Dental Prophylaxis \n Pet Grooming \n Pet Supplies \n \n \nYou can also check us on GOOGLE MAP, \n just search SOUTH PAWS ANIMAL CLINIC, Las Piñas.',
+                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming \nSurgery \nDental Prophylaxis \nPet Grooming \nPet Supplies\n\nContact Us: \nsouthpawsanimalclinic@gmail.com \n09278187025 / (02) 8869-6457.',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,
