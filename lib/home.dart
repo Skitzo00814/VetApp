@@ -6,7 +6,7 @@ import 'package:vet/login.dart';
 import 'package:vet/model/user_model.dart';
 import 'package:vet/services.dart';
 import 'package:vet/vetpage.dart';
-import 'package:vet/vetpage2.dart';
+import 'package:vet/veterinary_main.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

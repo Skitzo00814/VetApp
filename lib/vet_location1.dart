@@ -6,16 +6,16 @@ import 'package:vet/home.dart';
 import 'package:vet/login.dart';
 import 'package:vet/model/user_model.dart';
 import 'package:vet/vetpage.dart';
-import 'package:vet/vetpage2.dart';
+import 'package:vet/veterinary_main.dart';
 
-class VetLoc2 extends StatefulWidget {
-  const VetLoc2({super.key});
+class VetLoc extends StatefulWidget {
+  const VetLoc({super.key});
 
   @override
-  State<VetLoc2> createState() => _VetLoc2State();
+  State<VetLoc> createState() => _VetLocState();
 }
 
-class _VetLoc2State extends State<VetLoc2> {
+class _VetLocState extends State<VetLoc> {
   User? user = FirebaseAuth.instance.currentUser;
   UserModel loggedInUser = UserModel();
 
@@ -118,7 +118,7 @@ class _VetLoc2State extends State<VetLoc2> {
                               height: 10,
                             ),
                             Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming \nSurgery \nDental Prophylaxis \nPet Grooming \nPet Supplies\n\nContact Us: \nsouthpawsanimalclinic@gmail.com \n09278187025 / (02) 8869-6457',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

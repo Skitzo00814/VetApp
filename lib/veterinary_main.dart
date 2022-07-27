@@ -3,8 +3,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vet/model/user_model.dart';
-import 'package:vet/vetloc.dart';
-import 'package:vet/vetloc2.dart';
+import 'package:vet/vet_location1.dart';
+import 'package:vet/vet_location3.dart';
+import 'package:vet/vet_location2.dart';
 import 'package:vet/vetpage.dart';
 import 'home.dart';
 import 'login.dart';
@@ -123,7 +124,7 @@ class _VetPage2State extends State<VetPage2> {
                           child: createDocWidget(
                               "map.png",
                               "South Paw Animal Clinic",
-                              "Opens everyday 10 A.M - 6 P.M \nexcept Tuesday."),
+                              "Clinic Hours: \n\nOpens everyday 10 A.M - 6 P.M except Tuesday."),
                         ),
                         GestureDetector(
                           onTap: () {
@@ -136,7 +137,7 @@ class _VetPage2State extends State<VetPage2> {
                         GestureDetector(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                                builder: ((context) => VetLoc2())));
+                                builder: ((context) => VetLoc3())));
                           },
                           child: createDocWidget("map.png", "Vet Loc 3",
                               "Food does not equal love in your pet’s eyes. They may surely enjoy snacks. But they will still know how much you adore them, even if you minimize snacks to keep them at a healthy weight."),
