@@ -267,7 +267,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Services(
                         imahe: 'assets/dog.png',
-                        pangalan: 'Petshop',
+                        pangalan: 'Pet Shop',
                         view1: ' See More',
                       ),
                     ),
