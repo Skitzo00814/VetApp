@@ -118,7 +118,21 @@ class _VetLocState extends State<VetLoc> {
                               height: 10,
                             ),
                             Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+                              'Opens everyday 10 A.M - 6 P.M except Tuesday',
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
+                            Text(
+                              '',
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
+                            Text(
+                              'We offer',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,
