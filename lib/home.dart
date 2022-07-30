@@ -259,7 +259,7 @@ class _HomePageState extends State<HomePage> {
                               builder: ((context) => VetPage2())));
                         },
                         child: Services(
-                          imahe: 'assets/dog.png',
+                          imahe: 'assets/doctor.png',
                           pangalan: 'Veterinary',
                           view1: ' See More',
                         )),
@@ -269,7 +269,7 @@ class _HomePageState extends State<HomePage> {
                             builder: ((context) => VetPage())));
                       },
                       child: Services(
-                        imahe: 'assets/dog.png',
+                        imahe: 'assets/petshop.png',
                         pangalan: 'Pet Shop',
                         view1: ' See More',
                       ),
