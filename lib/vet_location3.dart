@@ -48,7 +48,7 @@ class _VetLoc3State extends State<VetLoc3> {
               width: MediaQuery.of(context).size.width,
               child: Container(
                 padding: EdgeInsets.all(20),
-                child: Image.asset('assets/south.jpg'),
+                child: Image.asset('assets/bowmeow_bg.jpg'),
               ),
             ),
             Container(
@@ -79,7 +79,7 @@ class _VetLoc3State extends State<VetLoc3> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  'Vet Location 3',
+                                  '        BOW MEOW Animal Clinic',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.cairo(
                                     fontSize: 20,
@@ -90,7 +90,7 @@ class _VetLoc3State extends State<VetLoc3> {
                                   height: 5,
                                 ),
                                 Text(
-                                  '107 Real Street, Alabang–Zapote Rd, Las Piñas, 1740 Metro Manila',
+                                  'Unit 3, 2nd floor, Automercado Building, Daang Hari Road, Almanza Dos, Las Piñas, 1750 Metro Manila',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.cairo(
                                     fontSize: 13,
@@ -118,7 +118,7 @@ class _VetLoc3State extends State<VetLoc3> {
                               height: 10,
                             ),
                             Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming \nSurgery \nDental Prophylaxis \nPet Grooming \nPet Supplies\n\nContact Us: \nbowmeow.animalclinic@gmail.com \n09959821180 / (02) 8771-1274',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

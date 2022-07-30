@@ -79,7 +79,7 @@ class _VetLocState extends State<VetLoc> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  'South Paws Veterinary Clinic',
+                                  '     South Paws Veterinary Clinic',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.cairo(
                                     fontSize: 20,

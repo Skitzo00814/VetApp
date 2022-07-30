@@ -48,7 +48,7 @@ class _VetLoc2State extends State<VetLoc2> {
               width: MediaQuery.of(context).size.width,
               child: Container(
                 padding: EdgeInsets.all(20),
-                child: Image.asset('assets/south.jpg'),
+                child: Image.asset('assets/ormanes_bg.jpg'),
               ),
             ),
             Container(
@@ -79,7 +79,7 @@ class _VetLoc2State extends State<VetLoc2> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  'Vet Location 2',
+                                  '        Ormanes Veterinary Clinic',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.cairo(
                                     fontSize: 20,
@@ -90,7 +90,7 @@ class _VetLoc2State extends State<VetLoc2> {
                                   height: 5,
                                 ),
                                 Text(
-                                  '107 Real Street, Alabang–Zapote Rd, Las Piñas, 1740 Metro Manila',
+                                  'BF Resort City, 18 Carolyn, Caroline Masibay, Las Piñas, Metro Manila',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.cairo(
                                     fontSize: 13,
@@ -118,7 +118,7 @@ class _VetLoc2State extends State<VetLoc2> {
                               height: 10,
                             ),
                             Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming\nDental Prophylaxis \nPet Grooming\n\nContact Us: \normanesvet@gmail.com \n09209106179 / (02) 8875 3817',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

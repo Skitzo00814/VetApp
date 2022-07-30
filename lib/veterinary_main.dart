@@ -122,25 +122,29 @@ class _VetPage2State extends State<VetPage2> {
                                 builder: ((context) => VetLoc())));
                           },
                           child: createDocWidget(
-                              "map.png",
+                              "south_logo.png",
                               "South Paw Animal Clinic",
-                              "Clinic Hours: \n\nOpens everyday 10 A.M - 6 P.M except Tuesday."),
+                              "Clinic Hours: \n\nOpens everyday 10 A.M - 6 P.M \nexcept Tuesday."),
                         ),
                         GestureDetector(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: ((context) => VetLoc2())));
                           },
-                          child: createDocWidget("map.png", "Vet Loc 2",
-                              "Dental disease is real, and really hurts. Most animals won’t show signs of pain and will keep eating. However, owners describe how much more alert and spunky their pets act after those painful teeth are treated or removed. There are no shortcuts in dental care. There are many people out there in the business of selling shortcuts, but safe and thorough dentistry requires anesthesia and dental x-rays."),
+                          child: createDocWidget(
+                              "ormanes.png",
+                              "Ormanes Veterinary Clinic",
+                              "Clinic Hours: \n\nOpens everyday 9 A.M - 5 P.M \nSunday 9 A.M - 2 P.M ."),
                         ),
                         GestureDetector(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: ((context) => VetLoc3())));
                           },
-                          child: createDocWidget("map.png", "Vet Loc 3",
-                              "Food does not equal love in your pet’s eyes. They may surely enjoy snacks. But they will still know how much you adore them, even if you minimize snacks to keep them at a healthy weight."),
+                          child: createDocWidget(
+                              "MEOW.png",
+                              "BOW MEOW Animal Clinic",
+                              "Clinic Hours: \n\nOpens everyday 9 A.M - 4 P.M \nexcept Wednesday."),
                         ),
                       ],
                     )),
