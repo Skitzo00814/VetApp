@@ -187,7 +187,7 @@ class _VetPage2State extends State<VetPage2> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.home),
+                  leading: Icon(Icons.add_shopping_cart_rounded),
                   title: Text(
                     'Pet Shop',
                     style: GoogleFonts.cairo(
@@ -200,7 +200,7 @@ class _VetPage2State extends State<VetPage2> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.home),
+                  leading: Icon(Icons.medical_services_rounded),
                   title: Text(
                     'Veterinaries',
                     style: GoogleFonts.cairo(

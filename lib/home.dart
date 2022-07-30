@@ -182,11 +182,12 @@ class _HomePageState extends State<HomePage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.pets_rounded),
-                          SizedBox(
-                            width: 5,
+                          Text(
+                            "Just like you, your pet can get heart problems,develop \narthritis,or have a toothache. The best way to prevent such \nproblems is to see your veterinarian every year.",
+                            maxLines: 5,
+                            overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.center,
                           ),
-                          Text('Pet Shop'),
                         ],
                       ),
                     ),
@@ -201,11 +202,12 @@ class _HomePageState extends State<HomePage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.medical_services_outlined),
-                          SizedBox(
-                            width: 5,
+                          Text(
+                            "Many dogs and cats are overweight or obese. And just like \npeople, obesity in pets comes with health risks \nthat include diabetes, arthritis, and cancer.",
+                            maxLines: 5,
+                            overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.center,
                           ),
-                          Text('Pharmacy'),
                         ],
                       ),
                     ),
@@ -220,11 +222,12 @@ class _HomePageState extends State<HomePage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.cloud_rounded),
-                          SizedBox(
-                            width: 5,
+                          Text(
+                            "For optimal health, pets need regular vaccinations against \ndiseases such as rabies, distemper, \nfeline leukemia, and canine hepatitis.",
+                            maxLines: 5,
+                            overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.center,
                           ),
-                          Text('Others'),
                         ],
                       ),
                     ),
@@ -316,7 +319,7 @@ class _HomePageState extends State<HomePage> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.home),
+                  leading: Icon(Icons.add_shopping_cart_rounded),
                   title: Text(
                     'Pet Shop',
                     style: GoogleFonts.cairo(
@@ -329,7 +332,7 @@ class _HomePageState extends State<HomePage> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.home),
+                  leading: Icon(Icons.medical_services_rounded),
                   title: Text(
                     'Veterinaries',
                     style: GoogleFonts.cairo(

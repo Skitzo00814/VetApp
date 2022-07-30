@@ -7,7 +7,10 @@ import 'package:vet/login.dart';
 import 'package:vet/market.dart';
 import 'package:vet/model/user_model.dart';
 import 'package:vet/shop.dart';
+import 'package:vet/store/item2.dart';
+import 'package:vet/store/item3.dart';
 import 'package:vet/veterinary_main.dart';
+import 'package:vet/store/item.dart';
 
 class VetPage extends StatefulWidget {
   const VetPage({Key? key}) : super(key: key);
@@ -119,9 +122,9 @@ class _VetPageState extends State<VetPage> {
             scrollDirection: Axis.horizontal,
             children: [
               Shop(),
-              Shop(),
-              Shop(),
-              Shop(),
+              Item(),
+              Item2(),
+              Item3(),
             ],
           ))
         ],
@@ -167,7 +170,7 @@ class _VetPageState extends State<VetPage> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.home),
+                leading: Icon(Icons.add_shopping_cart_rounded),
                 title: Text(
                   'Pet Shop',
                   style: GoogleFonts.cairo(
@@ -180,7 +183,7 @@ class _VetPageState extends State<VetPage> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.home),
+                leading: Icon(Icons.medical_services_rounded),
                 title: Text(
                   'Veterinaries',
                   style: GoogleFonts.cairo(
