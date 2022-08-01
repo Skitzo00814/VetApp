@@ -72,7 +72,7 @@ class _VetLoc3State extends State<VetLoc3> {
                           SizedBox(
                             height: 100,
                             width: 100,
-                            child: Image.asset('assets/logo1.png'),
+                            child: Image.asset('assets/MEOW.png'),
                           ),
                           Expanded(
                             child: Column(
@@ -108,7 +108,7 @@ class _VetLoc3State extends State<VetLoc3> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'About the place',
+                              'About the place              Contact Us',
                               style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w500,
@@ -118,7 +118,7 @@ class _VetLoc3State extends State<VetLoc3> {
                               height: 10,
                             ),
                             Text(
-                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming \nSurgery \nDental Prophylaxis \nPet Grooming \nPet Supplies\n\nContact Us: \nbowmeow.animalclinic@gmail.com \n09959821180 / (02) 8771-1274',
+                              'We offer: \n\nConsultation/Check-up          bowmeow.animalclinic\nTreatment & Confinement     @gmail.com\nVaccination & Deworming     09959821180\nSurgery                                     (02) 8771-1274\nDental Prophylaxis \nPet Grooming \nPet Supplies',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

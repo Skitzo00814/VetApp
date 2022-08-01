@@ -72,7 +72,7 @@ class _VetLoc2State extends State<VetLoc2> {
                           SizedBox(
                             height: 100,
                             width: 100,
-                            child: Image.asset('assets/logo1.png'),
+                            child: Image.asset('assets/ormanes.png'),
                           ),
                           Expanded(
                             child: Column(
@@ -108,7 +108,7 @@ class _VetLoc2State extends State<VetLoc2> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'About the place',
+                              'About the place              Contact Us',
                               style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w500,
@@ -118,7 +118,7 @@ class _VetLoc2State extends State<VetLoc2> {
                               height: 10,
                             ),
                             Text(
-                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming\nDental Prophylaxis \nPet Grooming\n\nContact Us: \normanesvet@gmail.com \n09209106179 / (02) 8875 3817',
+                              'We offer: \n\nConsultation/Check-up          ormanesvet@gmail.com\nTreatment & Confinement     09209106179\nVaccination & Deworming     (02) 8875 3817\nDental Prophylaxis \nPet Grooming',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

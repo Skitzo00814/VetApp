@@ -287,6 +287,12 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
+          actions: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 10, 20, 0),
+              child: Image.asset('assets/logo.png'),
+            ),
+          ],
         ),
         drawer: Drawer(
           child: Container(

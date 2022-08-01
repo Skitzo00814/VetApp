@@ -72,7 +72,7 @@ class _VetLocState extends State<VetLoc> {
                           SizedBox(
                             height: 100,
                             width: 100,
-                            child: Image.asset('assets/logo1.png'),
+                            child: Image.asset('assets/south_logo.png'),
                           ),
                           Expanded(
                             child: Column(
@@ -108,7 +108,7 @@ class _VetLocState extends State<VetLoc> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'About the place',
+                              'About the place              Contact Us',
                               style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w500,
@@ -118,7 +118,7 @@ class _VetLocState extends State<VetLoc> {
                               height: 10,
                             ),
                             Text(
-                              'We offer: \n\nConsultation/Check-up \nTreatment & Confinement \nVaccination & Deworming \nSurgery \nDental Prophylaxis \nPet Grooming \nPet Supplies\n\nContact Us: \nsouthpawsanimalclinic@gmail.com \n09278187025 / (02) 8869-6457',
+                              'We offer: \n\nConsultation/Check-up          southpawsanimalclinic\nTreatment & Confinement     @gmail.com\nVaccination & Deworming     09278187025\nSurgery                                     (02) 8869-6457\nDental Prophylaxis \nPet Grooming \nPet Supplies',
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400,

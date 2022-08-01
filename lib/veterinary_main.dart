@@ -89,19 +89,19 @@ class _VetPage2State extends State<VetPage2> {
                     scrollDirection: Axis.horizontal,
                     children: <Widget>[
                       categoryContainer(
-                        "logo1.png",
+                        "vaccine.png",
                         "Vaccine",
                       ),
-                      categoryContainer("logo1.png", "Check Up"),
-                      categoryContainer("logo1.png", "Medicines"),
-                      categoryContainer("logo1.png", "Phonebook"),
-                      categoryContainer("logo1.png", "Appointment"),
+                      categoryContainer("check_up.png", "Check Up"),
+                      categoryContainer("med.png", "Medicines"),
+                      categoryContainer("phonebook.png", "Phonebook"),
+                      categoryContainer("appointment.png", "Appointment"),
                     ],
                   ),
                 ),
               ),
               Text(
-                'Veterinary Clinics',
+                '\nVeterinary Clinics',
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.w300,
@@ -155,6 +155,12 @@ class _VetPage2State extends State<VetPage2> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
+          actions: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 10, 20, 0),
+              child: Image.asset('assets/logo.png'),
+            ),
+          ],
         ),
         drawer: Drawer(
           child: Container(
